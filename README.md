@@ -1,24 +1,24 @@
 # How to make a perfect crawl
 
-1. Incremental Crawler
+## Incremental Crawler
 
 Keep crawling the web and refresh regularly.
 
-2. High performance
+## High performance
 
 Using effcient data structure to build a better crawler.
 
-3. Distributed crawlers
+## Distributed crawlers
 
 Make your crawler extensible.
 
 2 types: `Master-Slave` / `Peer to Peer`
 
-4. Robust
+## Robust
 
 Make sure your crawler can recover working when suffer error last time.
 
-5. Friendly
+## Friendly
 
 There are two points: 
 
@@ -44,5 +44,3 @@ Disallow: /tmp/
 2. Importance
 
 3. Recently
-
-# 
