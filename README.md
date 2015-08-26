@@ -1,9 +1,48 @@
-# 一些爬虫小练习
->说明
+# How to make a perfect crawl
 
-	从简单的段子爬取
-	然后是反爬虫的携程网站
-	使用多线程爬取内容
-	爬取页面的连接,加入队列
-	去除队列重复项
-	etc...
+1. Incremental Crawler
+
+Keep crawling the web and refresh regularly.
+
+2. High performance
+
+Using effcient data structure to build a better crawler.
+
+3. Distributed crawlers
+
+Make your crawler extensible.
+
+2 types: `Master-Slave` / `Peer to Peer`
+
+4. Robust
+
+Make sure your crawler can recover working when suffer error last time.
+
+5. Friendly
+
+There are two points: 
+
+obey the website's protocols(robot.txt) or the mark in HTML
+
+Don't crawl the same website frequently.
+
+such like:
+
+```HTML
+
+Disallow: /tmp/
+
+<meta name="robots" content="noindex">
+<meta name="robots" content="nofollow">
+
+```
+
+# How to assess the quality of crawler
+
+1. Coverage
+
+2. Importance
+
+3. Recently
+
+# 
